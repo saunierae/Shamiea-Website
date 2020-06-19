@@ -1,0 +1,100 @@
+body, html {
+}
+ 
+body {
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    margin:0;
+    padding:0;
+    min-width: 200px;
+}
+ 
+.navigation-container {
+    display: inline
+}
+ 
+/* Style the menu bar*/
+.menu-button {
+    background-color: white;
+    overflow: hidden;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+ 
+/* Title Styling */
+h1 {
+    float: left;
+    font-size: 22;
+    color: black;
+    margin: -3px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 5px;  
+}
+ 
+.contact-container {
+    padding-left: 15px;
+}
+ 
+#menu-contents {
+    float: right;
+    padding-right: 15px;
+}
+ 
+/* List styling*/
+li {
+    float: right;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+ 
+/* Removes underline from links*/
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+ 
+/* Removes bullets from list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+ 
+/* Changes the color of links on hover */
+.menu-button a:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-top: 10px;
+}
+ 
+/* Footer style */
+.footer {
+  position: fixed;
+  right: -40px;
+  bottom: 0px;
+  left: -60px;
+  padding: 1rem;
+  background-color: white;
+  text-align: right;
+  z-index: 0;
+}  
+ 
+.email {
+    float: right;
+    background-color: white;
+    overflow: hidden;
+    margin-right: 30px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+}
+ 
+h2 {
+    padding-bottom: 20px;
+}

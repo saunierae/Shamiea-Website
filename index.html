@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+        <title>Shamiea Roberts</title> 
+        <meta property="og:title" content="Shamiea Roberts">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="keywords" content="">      
+    </head>
+<body class="theme-fullscreen">
+    <div class="container-frame">
+        <div class="container-wide">
+            <link rel="stylesheet" type="text/css" href="shamiea.css">
+            <header style="display: block;">
+    <div class="menu-button">
+        <div class="navigation-container">
+        <h1>
+            <a href="/">Shamiea Roberts</a>
+        </h1>
+            <div id="menu-contents">
+                <nav>
+                    <ul>                       
+                        <li class="/contact">
+                            <a href="shamieaContact.html">Contact</a>
+                        </li>
+                        <li class="portfolio-link">
+                            <a href="shamieaPortfolio.html">Portfolio</a>
+                        </li>
+                        <li class="home-link">
+                            <a href="index.html">Home</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>         
+            </header>
+        </div>
+    </div>
+ 
+<style>
+* {box-sizing:border-box}
+.mySlides {display:none}
+ 
+/* Slideshow container */
+.slideshow-container { 
+  position: relative;
+  background-color: whitesmoke;
+  margin: auto;
+  width: 100%;
+  max-width: 100%;   
+}
+ 
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+ 
+@-webkit-keyframes fade {
+  from {opacity: .75} 
+  to {opacity: 1}
+}
+ 
+@keyframes fade {
+  from {opacity: .75} 
+  to {opacity: 1}
+}
+ 
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 30%) {
+  .text {font-size: 75%}
+}
+ 
+.quote{
+      text-align: center;
+    }   
+</style>
+ 
+<center>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/sRoberts01background2.gif" style="width:100%;">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/sRoberts02.jpg" style="width:100%;">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/sRoberts03background2.gif" style="width:100%;">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/sRoberts04.jpg" style="width:100%;">
+        </div>    
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/sRoberts05.jpg" style="width:100%;">
+        </div>     
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="images/sRoberts06.jpg" style="width:100%;">
+        </div>       
+    </div>
+</center>
+ 
+<script>
+ 
+var slideIndex = 0;
+carousel();
+ 
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+ 
+</script> 
+ 
+   <footer class="footer">
+        <a class="email" href="mailto:roberts.shamiea@gmail.com">
+                <i class="fa fa-envelope">roberts.shamiea@gmail.com</i>
+        </a> 
+    </footer>
+</body>
+</html>
